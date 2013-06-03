@@ -1,46 +1,39 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: in the open
+tagline: from the newsroom
+description: My name is Annabel Church and I am a Knight-Mozilla OpenNews Fellow. I am coder embeded in the newsroom at Zeit Online.
 ---
+
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<section class="posts">
+	<ol>
+		{% for post in site.posts limit:2 %}
+		<li>
+			<article>
+				<header>	
+					{% if post.topic %}<span class="topic">{{ post.topic }}</span>{% endif %}
+					<a href="{{ BASE_PATH }}{{ post.url }}">
+			    		<h3> {{ post.title }} </h3>
+			    	<!-- <img src="/images/postimages/trailpics-large/wii-u.jpg" alt=""> --></a>
+			    	<!-- {% unless post.tags == empty %}
+					    <ul class="tags inline">
+					      {% assign tags_list = post.tags %}
+					      {% include JB/tags_list %}
+					    </ul>
+					{% endunless %}  -->
+			    </header>
+			    {% if post.teaser %}
+				    <p class="summary">
+				    	<span class="date">{{ post.date | date: "%d %B %Y" }} · </span>
+						<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.teaser }}</a>
+				    </p>
+			    {% endif %}
+			</article>
+		</li>
+		{% endfor %}
+	</ol>
+</section>
 
 

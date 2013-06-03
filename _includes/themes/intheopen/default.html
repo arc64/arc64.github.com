@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>{{ page.title }} - {{ site.author.name }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 shim for IE6-8's support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  
+    <!-- Typekit fonts -->
+    <script type="text/javascript">
+      (function() {
+        var config = {
+          kitId: 'aif5juk',
+          scriptTimeout: 3000
+        };
+        var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+      })();
+    </script>
+    <!-- CSS -->
+    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+<style>
+
+ 
+ 
+/*  .logo {
+    font-size: 30px;
+    text-align: center;
+    width: 15px;
+    margin-left: 1em;
+    display: block;
+  }
+*/
+</style>
+  </head>
+
+  <body>
+    <header role="masthead">
+      <img alt="A very pretty picture of a computer" src="/assets/themes/intheopen/img/computer.JPG" />
+
+      <h1>{{ page.title }} {% if page.tagline %} <!-- <small>{{ page.tagline }}</small> -->{% endif %}</h1>
+    </header>
+
+    <!-- section: posts -->
+    {{ content }}
+
+    <footer class="footer">
+      <!-- <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a> -->
+      <p class="description"> I am a <a href="http://www.mozillaopennews.org/" title="See all the fellows">Knight-Mozilla OpenNews Fellow</a>. A coder embeded in the newsroom at <a href="http://zeit.de">Zeit Online</a>. &mdash; <a href="https://twitter.com/annabelchurch‎" title="find me on the twitters">@annabelchurch</a>
+</p>
+       <!--  <p>Using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        </p> -->
+    </footer>
+
+    <nav>
+        <ul class="nav">
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include JB/pages_list %}
+        </ul>
+    </nav>
+
+    {% include JB/analytics %}
+  </body>
+</html>
