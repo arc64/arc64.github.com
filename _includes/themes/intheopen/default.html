@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
     <title>{{ page.title }} - {{ site.author.name }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
-
     <!-- Responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -39,47 +37,41 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-<style>
 
- 
- 
-/*  .logo {
-    font-size: 30px;
-    text-align: center;
-    width: 15px;
-    margin-left: 1em;
-    display: block;
-  }
-*/
-</style>
   </head>
 
   <body>
     <header role="masthead">
+      <!-- randomise these photos -->
       <img alt="A very pretty picture of a computer" src="/assets/themes/intheopen/img/computer.JPG" />
 
-      <h1>{{ page.title }} {% if page.tagline %} <!-- <small>{{ page.tagline }}</small> -->{% endif %}</h1>
+      <h1><a title="home" href="/">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a></h1>
     </header>
 
-    <!-- section: posts -->
-    {{ content }}
+    <div class="main">
+      <!-- section : default.html -->
+      {{ content }}
 
-    <footer class="footer">
-      <!-- <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a> -->
-      <p class="description"> I am a <a href="http://www.mozillaopennews.org/" title="See all the fellows">Knight-Mozilla OpenNews Fellow</a>. A coder embeded in the newsroom at <a href="http://zeit.de">Zeit Online</a>. &mdash; <a href="https://twitter.com/annabelchurch‎" title="find me on the twitters">@annabelchurch</a>
-</p>
-       <!--  <p>Using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        </p> -->
-    </footer>
-
+      <!-- footer | default.html -->
+      <aside class="me">
+        <!-- <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a> -->
+        <p class="description"> I am a <a href="http://www.mozillaopennews.org/" title="See all the fellows">Knight-Mozilla OpenNews Fellow</a>. A coder embeded in the newsroom at <a href="http://zeit.de">Zeit Online</a>. &mdash;   <a href="https://twitter.com/annabelchurch‎" title="find me on the twitters">@annabelchurch</a>
+        </p>
+         <!--  <p>Using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          </p> -->
+      </aside>
+    </div>
+    <!-- nav | post.html -->
     <nav>
-        <ul class="nav">
+       <!--  <ul class="nav">
+          <li><a href="/" title="Home">Home</a></li>
           {% assign pages_list = site.pages %}
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
-        </ul>
+        </ul> -->
     </nav>
 
+    <!-- yes, I am using a modified Jekyll Bootstrap for this blog -->
     {% include JB/analytics %}
   </body>
 </html>

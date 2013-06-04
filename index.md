@@ -9,14 +9,14 @@ description: My name is Annabel Church and I am a Knight-Mozilla OpenNews Fellow
 
 <section class="posts">
 	<ol>
-		{% for post in site.posts limit:2 %}
+		{% for post in site.posts limit:5 %}
 		<li>
 			<article>
 				<header>	
-					{% if post.topic %}<span class="topic">{{ post.topic }}</span>{% endif %}
-					<a href="{{ BASE_PATH }}{{ post.url }}">
+					{% if post.category %}<span class="category">{{ post.category }}</span>{% endif %}
+					<a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}">
 			    		<h3> {{ post.title }} </h3>
-			    	<!-- <img src="/images/postimages/trailpics-large/wii-u.jpg" alt=""> --></a>
+			   		</a>
 			    	<!-- {% unless post.tags == empty %}
 					    <ul class="tags inline">
 					      {% assign tags_list = post.tags %}
@@ -25,9 +25,9 @@ description: My name is Annabel Church and I am a Knight-Mozilla OpenNews Fellow
 					{% endunless %}  -->
 			    </header>
 			    {% if post.teaser %}
-				    <p class="summary">
-				    	<span class="date">{{ post.date | date: "%d %B %Y" }} · </span>
-						<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.teaser }}</a>
+				    <p class="teaser">
+				    	<span class="date">{{ post.date | date: "%d %B %Y" }} </span> &sdot;
+						<a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}"> {{ post.teaser }} <span class="more">&rsaquo;&rsaquo;</span></a>
 				    </p>
 			    {% endif %}
 			</article>
@@ -35,5 +35,4 @@ description: My name is Annabel Church and I am a Knight-Mozilla OpenNews Fellow
 		{% endfor %}
 	</ol>
 </section>
-
 
