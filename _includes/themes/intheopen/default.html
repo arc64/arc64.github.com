@@ -41,36 +41,10 @@
   </head>
 
   <body>
-    <header role="masthead">
-      <!-- randomise these photos -->
-      <img alt="A very pretty picture of a computer" src="/assets/themes/intheopen/img/computer.JPG" />
 
-      <h1><a title="home" href="/">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a></h1>
-    </header>
-
-    <div class="main">
-      <!-- section : default.html -->
+ 
       {{ content }}
-
-      <!-- footer | default.html -->
-      <aside class="me">
-        <!-- <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a> -->
-        <p class="description"> I am a <a href="http://www.mozillaopennews.org/" title="See all the fellows">Knight-Mozilla OpenNews Fellow</a>. A coder embeded in the newsroom at <a href="http://zeit.de">Zeit Online</a>. &mdash;   <a href="https://twitter.com/annabelchurch‎" title="find me on the twitters">@annabelchurch</a>
-        </p>
-         <!--  <p>Using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          </p> -->
-      </aside>
-    </div>
-    <!-- nav | post.html -->
-    <nav>
-       <!--  <ul class="nav">
-          <li><a href="/" title="Home">Home</a></li>
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
-        </ul> -->
-    </nav>
-
+      
     <!-- yes, I am using a modified Jekyll Bootstrap for this blog -->
     {% include JB/analytics %}
   </body>
