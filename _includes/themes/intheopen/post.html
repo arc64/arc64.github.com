@@ -1,29 +1,92 @@
-<div class="main">
+
 <style>
- header[role="masthead"],
-  .description{
+ header[role="masthead"]{
     position: absolute;
   }
   .content {margin:0; padding:0;}
 
-header[role="masthead"] {
+  header[role="masthead"] {
     overflow: hidden;
     position: fixed;
    
     padding: 0;
-    max-width: 400px;
+    width: 30%;
     height: 100%;
   }
+
   header img {
     height: 100%;
     width: auto;
     max-width: auto !imporant;
     max-height:100%;
   }
+
+  aside {
+    width: auto;
+    position: inherit;
+    padding: 0;
+  }
+
+  main.post {
+    border-bottom-color: rgb(222, 222, 220);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 2em;
+  }
+
+
+  nav {
+    background-color: #fff;
+    color: #000;
+  }
+
+.post article {
+   margin-top: 0;
+   border-bottom: none;
+}
+
+.post aside{
+  position: inherit;
+}
+
+h1 small {
+  clear: both;
+  display: inline-block;
+}
   
+@media (max-width: 1000px) {
+  header[role="masthead"].post h1 {
+    bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  .post h1 {
+     font-size: 36px;
+     padding-top: 0.8em;
+  }
+
+  header[role="masthead"].post {
+    position: relative;
+    width: 100%;
+  } 
+
+  header img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .post .content {
+    padding: 0 3em;
+  }
+}
+
+@media (max-width: 500px){
+  .post h1 {
+    /*font-size: 36px;*/
+  }
 </style>
-   
-    <header role="masthead">
+    <header role="masthead" class="post">
       
       <!-- randomise these photos -->
       <img alt="A very pretty picture of a computer" src="/assets/themes/intheopen/img/computer.jpg" />
@@ -31,22 +94,18 @@ header[role="masthead"] {
       <h1><a title="home" href="/">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a></h1>
     </header>
 
-    <div class="main">
+    <div class="main post">
       <div class="content">
 
-
-
-
-
-    <main class="post">
-        <header>
-          <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-          
-        </header>
-        <article>
-          <span class="prearticle"><span class="date">{{ page.date | date_to_long_string }} </span>&sdot;&nbsp;</span>  {{ content }}
-        </article>
-    </main>
+      <main>
+          <header>
+            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            
+          </header>
+          <article>
+            <span class="prearticle"><span class="date">{{ page.date | date_to_long_string }} </span>&sdot;&nbsp;</span>  {{ content }}
+          </article>
+      </main>
 
 
 <!-- 
@@ -92,11 +151,11 @@ header[role="masthead"] {
         <!--  <p>Using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
         </p> -->
       </aside>
-  </div>
+    </div>
     
       
 
-    </div>
+
     <!-- nav | post.html -->
     <nav>
        <!--  <ul class="nav">

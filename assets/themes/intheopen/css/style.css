@@ -146,14 +146,6 @@ article {
 }
 
 /* post specifics */
-.post article {
-   margin-top: 0;
-   border-bottom: none;
-}
-
-.post aside{
-  position: inherit;
-}
 
 .prearticle {
   float:left;
@@ -183,13 +175,12 @@ article {
 /* footer navigation */
 nav {
   padding: 20px 3em 20px 3em;
-  background-color: black;
-  color: white;
+  background-color: #000;
   text-align: center;
 }
 
 nav li a {
-  color: #ffffff;
+  color: #fff;
 }
 
 nav li {
