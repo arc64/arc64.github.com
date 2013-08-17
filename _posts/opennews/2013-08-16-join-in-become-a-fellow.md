@@ -5,7 +5,7 @@ tagline: ""
 tags : [fellowship]
 title: "Apply now and get one year free*"
 opennews: true
-unlisted: true
+unlisted: false
 ---
 {% include JB/setup %}
 
