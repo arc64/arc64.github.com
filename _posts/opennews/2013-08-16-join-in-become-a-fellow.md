@@ -3,7 +3,7 @@ layout: post
 category : opennews
 tagline: ""
 tags : [fellowship]
-title: "Apply now and get one free*"
+title: "Apply now and get one year free*"
 opennews: true
 unlisted: true
 ---
@@ -27,4 +27,4 @@ My fellowship feels a bit like an extended OHM, a summer camp, surrounded by a t
 
 If you are a coder in a team seething with passion and an ability to make and create. If you want a year free to see inside a newsroom and hack on journalism. If you want to break into a community of passionate people at the intersection of technology and journalism. [This is the place for you](http://mozillaopennews.org/fellowships/apply.html). 
 
-<p><small>* Nearly a year.</small></p>
+<p><small>* Nearly a year. A bit like summer camp.</small></p>
