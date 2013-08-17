@@ -30,6 +30,9 @@ description: My name is Annabel Church and I am a Knight-Mozilla OpenNews Fellow
 						<a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}"> {{ post.teaser }} <span class="more">&rsaquo;&rsaquo;</span></a>
 				    </p>
 			    {% endif %}
+			    <div class="actual-post">
+				    {{ post.content }}
+				</div>
 			</article>
 		</li>
 		{% endfor %}

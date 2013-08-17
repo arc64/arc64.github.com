@@ -69,9 +69,13 @@ p {
   margin-bottom: 1em;
 }
 
+.description a{
+    text-decoration: none;
+}
+
 a {
   color: #333333;
-  text-decoration: none;
+/*  text-decoration: none;*/
 }
 
 a:hover {

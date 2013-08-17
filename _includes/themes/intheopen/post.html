@@ -53,6 +53,14 @@ h1 small {
   clear: both;
   display: inline-block;
 }
+
+ figure {
+    margin-bottom: 20px;
+  }
+
+  nav {
+    display: none;
+  }
   
 @media (max-width: 1000px) {
   header[role="masthead"].post h1 {
@@ -79,6 +87,8 @@ h1 small {
   .post .content {
     padding: 0 3em;
   }
+
+
 }
 
 @media (max-width: 500px){
@@ -89,7 +99,7 @@ h1 small {
     <header role="masthead" class="post">
       
       <!-- randomise these photos -->
-      <img alt="A very pretty picture of a computer" src="/assets/themes/intheopen/img/computer.jpg" />
+      <img alt="Hacking at OHM by Alexandre Dulaunoy" src="/assets/themes/intheopen/img/ohm-hacking.jpg" />
 
       <h1><a title="home" href="/">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a></h1>
     </header>
