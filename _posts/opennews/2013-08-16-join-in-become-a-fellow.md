@@ -19,12 +19,12 @@ So, tonight is the last night to get your application in. Tomorrow, applications
 
 <!-- There are 8 fellows this year, and 5 alumni and they have all expressed why their experience is unique, and how the OpenNews fellowship has helped them, changed them and blown their minds. 
  -->
-I spent a few days at [OHM](https://ohm2013.org/site/) a few weeks ago, sleeping in a tent and being woken by the sun at an absurd time after listening to the heavy beats of [Breakcore](http://www.last.fm/tag/breakcore) late into the night. Fibre was laid into the ground, and access points dressed as Data Toilets - provided internet out to the distant trees. People hacked on hardware, software, locks, rings, beer and ham and cheese toasties.
+I spent a few days at [OHM](https://ohm2013.org/site/) recently, sleeping in a tent, woken by the sun at an absurd time after listening to the heavy beats of [breakcore](http://www.last.fm/tag/breakcore) late into the night. Fibre was laid into the ground, and Data Toilets had been set up as access points to provide internet out to the distant trees. People hacked on hardware, software, locks, rings, beer and ham and cheese toasties.
 
-In that field I hacked too, and when OHM was over I went home to Berlin to hack. The fellowship has allowed me the privilege of meeting those who are in this community from all over the world, to observe, hack and make journalism as a part of this ever growing community, regardless of which field they are sitting in.
+In that green field I hacked too, and when OHM was over I went home to Berlin to hack. The fellowship has allowed me the privilege of meeting those who are in the news technology community from all over the world, to observe, hack and make journalism as a part of this ever growing community, regardless of which field they are sitting in.
 
-My fellowship feels a bit like an extended OHM, a summer camp, surrounded by a tightknit community in a world that seems completely unlike real life. I think [you should apply](http://mozillaopennews.org/fellowships/apply.html) and join the community. It is not to late. 
+My fellowship feels a bit like an extended OHM, a summer camp, surrounded by a tight-knit community in a world that sometimes seems like magic. I think [you should apply](http://mozillaopennews.org/fellowships/apply.html) and join the community. It is not too late. 
 
-If you are a coder in a team seething with passion and an ability to make and create. If you want a year free to see inside a newsroom and hack on journalism. If you want to break into a community of passionate people at the intersection of technology and journalism. [This is the place for you](http://mozillaopennews.org/fellowships/apply.html). 
+If you are a coder, seething with passion and an ability to make and create. If you want a year freely exploring a newsroom and hacking on journalism. If you want to join a community of passionate people at the intersection of technology and journalism. [This is the place for you](http://mozillaopennews.org/fellowships/apply.html). 
 
 <p><small>* Nearly a year. A bit like summer camp.</small></p>
