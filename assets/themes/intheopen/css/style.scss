@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/**
+* Variables
+*/
+
+$base-font-family: Helvetica, Arial, sans-serif;
+$heading-font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
+$accent-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-line-height: 1.5;
+
+$small-font-size:  $base-font-size * 0.875;
+$medium-font-size: $base-font-size * 1.5;  // 24px;
+$large-font-size:  $base-font-size * 2.5; // 40px;
+$xlarge-font-size:  $base-font-size * 2.875; // 46px;
+
+$spacing-unit:     30px;
+
+$text-color:       #000;
+$background-color: #fff;
+$brand-color:      #fb2507;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$link-color-dark: #666;
+$link-color-light: #333;
+
+$on-palm:          600px;
+$on-laptop:        900px;
+$wrapper-width:    900px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "base",
+    "layout",
+    "styley"
+;
+

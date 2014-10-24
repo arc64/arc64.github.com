@@ -1,0 +1,12 @@
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 15px;
+}
+
+@include media-query($on-laptop) {
+
+
+}

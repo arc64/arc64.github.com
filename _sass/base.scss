@@ -1,0 +1,226 @@
+
+/**
+ * Reset
+ */
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+}
+
+/**
+ * Set `margin-bottom` to maintain
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+/**
+ * Images & Figures
+ */
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+}
+
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+/**
+ * Headings
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/**
+ * Links
+ */
+
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        // color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+       // color: $text-color;
+        color: $link-color-dark;
+    }
+}
+
+/**
+ * Blockquotes
+ */
+
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $brand-color;
+    padding-left: $spacing-unit / 2;
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 1.5;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+    quotes: "\201C" "\201D" "\2018" "\2019";
+
+    &:before,
+    &:after {
+        font-family: $heading-font-family;
+        font-size: 3.1em;
+        line-height: 0.1em;
+        vertical-align: -0.4em;
+    }
+
+    &:before {
+        content: open-quote;
+        margin-right: 0.1em;
+    }
+
+    &:after {
+        content: close-quote;
+        margin-left: 0.1em;
+    }
+}
+
+cite,
+cite a {
+    color: #fff !important;
+    padding: 0.3em 0.5em;
+    font-style: normal;
+}
+
+/**
+ * Code formatting
+ */
+
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/**
+ * Wrapper
+ */
+
+.wrapper {
+    max-width: -webkit-calc(#{$wrapper-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$wrapper-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$wrapper-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$wrapper-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+.wrapper-wide {
+    max-width: -webkit-calc(100% - (#{$spacing-unit} * 2));
+    max-width:         calc(100% - (#{$spacing-unit} * 2));
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(100% - (#{$spacing-unit}));
+        max-width:         calc(100% - (#{$spacing-unit}));
+    }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * Icons
+ */
+
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}

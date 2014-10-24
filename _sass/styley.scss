@@ -1,0 +1,49 @@
+strong {
+    color: $brand-color;
+}
+
+header[role="masthead"] {
+    border-bottom: 1px solid black;
+    overflow: auto;
+
+    h1 {
+        font-size: $large-font-size;
+        text-transform: lowercase;
+        line-height: 1.2;
+        width: 7.7em;
+        float: left;
+        margin: 15px 0;
+    }
+    small {
+        text-transform: uppercase;
+        font-size: $small-font-size;
+        clear: left;
+        float: right;
+    }
+    a {
+        color: $text-color;
+    }
+}
+
+nav {
+    text-transform: uppercase;
+    float: right;
+    font-size: $small-font-size;
+    margin-top: 50px;
+
+    ul {
+        list-style: none;
+
+    }
+    li {
+        float: left;
+        margin-left: 1.5em;
+    }
+}
+
+article {
+    h1 {
+        font-size: $large-font-size;
+        font-weight: bold;
+    }
+}
