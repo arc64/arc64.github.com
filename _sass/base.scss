@@ -71,7 +71,7 @@ li {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $heading-font-family;
-    font-weight: 300;
+    /* font-weight: 300; */
     text-transform: uppercase;
 }
 
@@ -98,7 +98,6 @@ a {
  */
 
 blockquote {
-    color: $grey-color;
     border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
     font-size: 20px;
@@ -109,7 +108,7 @@ blockquote {
         margin-bottom: 0;
     }
 
-    quotes: "\201C" "\201D" "\2018" "\2019";
+    // quotes: "\201C" "\201D" "\2018" "\2019";
 
     &:before,
     &:after {
@@ -119,15 +118,15 @@ blockquote {
         vertical-align: -0.4em;
     }
 
-    &:before {
-        content: open-quote;
-        margin-right: 0.1em;
-    }
+    // &:before {
+    //     content: open-quote;
+    //     margin-right: 0.1em;
+    // }
 
-    &:after {
-        content: close-quote;
-        margin-left: 0.1em;
-    }
+    // &:after {
+    //     content: close-quote;
+    //     margin-left: 0.1em;
+    // }
 }
 
 cite,

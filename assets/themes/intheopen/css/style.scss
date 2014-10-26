@@ -20,7 +20,7 @@ $xlarge-font-size:  $base-font-size * 2.875; // 46px;
 
 $spacing-unit:     30px;
 
-$text-color:       #000;
+$text-color:       #262626;
 $background-color: #fff;
 $brand-color:      #fb2507;
 
@@ -41,6 +41,16 @@ $wrapper-width:    900px;
     }
 }
 
+@mixin column($column-count, $column-gap) {
+    -webkit-column-count: $column-count;
+    -webkit-column-gap: $column-gap;
+    -moz-column-count:$column-count;
+    -moz-column-gap: $column-gap;
+    -o-column-count:$column-count;
+    -o-column-gap: $column-gap;
+    column-count: $column-count;
+    column-gap: $column-gap;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -49,3 +59,16 @@ $wrapper-width:    900px;
     "styley"
 ;
 
+// body {
+//      background: url("../img/annabel_01.png") no-repeat 50% 20px;
+//       background-size: 100%;
+// }
+
+article h1 {
+    background: url("../img/icon_9569.svg") no-repeat 50% 40px;
+background-size: 20%;
+}
+
+.column {
+    @include column (3, 2em);
+}

@@ -8,7 +8,7 @@
   header[role="masthead"] {
     overflow: hidden;
     position: fixed;
-   
+
     padding: 0;
     width: 30%;
     height: 100%;
@@ -61,7 +61,7 @@ h1 small {
   nav {
     display: none;
   }
-  
+
 @media (max-width: 1000px) {
   header[role="masthead"].post h1 {
     bottom: 10px;
@@ -76,7 +76,7 @@ h1 small {
   header[role="masthead"].post {
     position: relative;
     width: 100%;
-  } 
+  }
 
   header img {
     width: 100%;
@@ -97,7 +97,7 @@ h1 small {
   }
 </style>
     <header role="masthead" class="post">
-      
+
       <!-- randomise these photos -->
       <img alt="Hacking at OHM by Alexandre Dulaunoy" src="/assets/themes/intheopen/img/ohm-hacking.jpg" />
 
@@ -108,24 +108,24 @@ h1 small {
       <div class="content">
 
       <main>
-          <header>
+         /* <header>
             <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-            
-          </header>
+
+          </header>*/
           <article>
             <span class="prearticle"><span class="date">{{ page.date | date_to_long_string }} </span>&sdot;&nbsp;</span>  {{ content }}
           </article>
       </main>
 
 
-<!-- 
+<!--
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="icon-folder-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
@@ -133,7 +133,7 @@ h1 small {
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
     <hr>
     <div class="pagination">
@@ -162,8 +162,8 @@ h1 small {
         </p> -->
       </aside>
     </div>
-    
-      
+
+
 
 
     <!-- nav | post.html -->

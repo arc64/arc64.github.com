@@ -14,9 +14,9 @@ description: My name is Annabel Church and I am a Knight-Mozilla OpenNews Fellow
 			<article>
 				<header>
 
-					<!-- <a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}">
-			    		<h3> {{ post.title }} </h3>
-			   		</a> -->
+					 <a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}">
+			    		<h1> {{ post.title | markdownify}} </h1>
+			   		</a>
 
 			    </header>
 					{{ post.content }}
