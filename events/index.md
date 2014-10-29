@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Attended with **enthusiasm**
-tagline: from the newsroom
+tagline: remembered fondly
 description:
 ---
 
