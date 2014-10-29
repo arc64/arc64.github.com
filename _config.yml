@@ -9,7 +9,8 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title :
-tagline: in the open
+tagline: coder, coffee drinker
+#tagline: in the open
 
 author :
   name : Annabel Church

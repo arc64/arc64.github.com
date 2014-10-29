@@ -194,6 +194,7 @@ h1 {
         border-bottom: 1px solid $grey-color;
         letter-spacing: 0.04em;
         padding-left: 0.02em;
+        line-height: 0.9;
     }
 
     h3 {
@@ -203,6 +204,7 @@ h1 {
         padding-left: 0.3em;
         color: $background-color;
         background-color: $text-color;
+        margin-top: 1.2em;
     }
 
     h4 {
@@ -211,6 +213,11 @@ h1 {
         text-transform: initial;
     }
 
+    @include media-query($on-palm) {
+         h2, h3 {
+            font-size: 35px;
+         }
+    }
 
 }
 
@@ -221,6 +228,21 @@ h1 {
     float: right;
 }
 
+.download {
+    font-family: "Rajdhani",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    clear: both;
+    border-bottom: none;
+    width: 100%;
+    display: block;
+    text-align: right;
+    &:hover {
+        color: $brand-color;
+    }
+}
 
 .pull {
     padding: 0.8em 0.2em 0.7em 0.2em;
@@ -251,10 +273,11 @@ section {
     padding-bottom: 3em;
     margin-bottom: 3em;
     border-bottom: 5px solid $text-color;
+    overflow: hidden;
 
     &:last-child {
         border-bottom: none;
-        margin-bottom: 0;
+        margin-bottom: 1em;
         padding-bottom: 1em;
     }
 }
@@ -316,15 +339,25 @@ footer {
 .bio {
     font-size: 20px;
 
+    .column {
+        @include column (2, 2em);
+        @include media-query($on-palm) {
+            @include column (1, 2em);
+        }
+    }
+
     ul {
         overflow: hidden;
         font-family: "Rajdhani",Helvetica,Arial,sans-serif;
+
+        @include media-query($on-palm) {
+            margin-left: 0;
+        }
 
         li {
             list-style: none;
             text-transform: uppercase;
             font-weight: bold;
-            font-size: 27px;
         }
 
         a {
