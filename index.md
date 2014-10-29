@@ -15,7 +15,7 @@ description:
 				<header>
 
 					<a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}">
-			    		<h1> {{ post.title | markdownify | remove: '<p>' | remove: '</p>'}} </h1>
+			    		<h1> {{ post.title | markdownify | remove: '<p>' | remove: '</p>'}} {% if post.tagline %}<small>{{ post.tagline }}</small>{% endif %}</h1>
 			   		</a>
 
 			    </header>

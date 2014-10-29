@@ -1,0 +1,256 @@
+- event: Black Forest Journalism
+  url:
+  month: 10
+  month-name: October
+  year: 2014
+  role: Hiker
+  favourite: true
+
+- event: DataKind Autumn DataDive
+  url: http://www.datakind.org/blog/datakind-uk-autumn-datadive-3-5-oct/
+  month: 10
+  month-name: October
+  year: 2014
+  role: Hacker
+
+- event: SRCCON 2014
+  url: http://srccon.org/
+  month: 7
+  month-name: July
+  year: 2014
+  role: Speaker
+
+- event: School of Data Summer camp
+  url: http://schoolofdata.org/school-of-data-summer-camp/
+  month: 7
+  month-name: July
+  year: 2014
+  role: Maker
+
+- event: Netzwerk Recherche 14
+  url: http://netzwerkrecherche.org/wordpress/nr14/
+  month: 7
+  month-name: July
+  year: 2014
+  role: Panellist
+
+- event: Coliberator
+  url: http://coliberator.ceata.org/index.en.html
+  month: 6
+  month-name: June
+  year: 2014
+  role: Speaker
+
+- event: GEN Hackday Finals Barcelona
+  url: http://www.globaleditorsnetwork.org/programmes/editors-lab/season-2013-2014/editors-lab-hackdays-final/
+  month: 6
+  month-name: June
+  year: 2014
+  role: Hacker
+
+- event: Chicas Poderosas Miami
+  url: http://www.chicaspoderosas.org/chicas-poderosas-miami-speakers-and-mentors/
+  month: 5
+  month-name: May
+  year: 2014
+  role: Mentor
+
+- event: GEN F.A.Z. Hackday
+  url: http://www.globaleditorsnetwork.org/programmes/editors-lab/previous-season-(2013-2014)/editors-lab-berlin/
+  month: 5
+  month-name: May
+  year: 2014
+  role: Hacker
+
+- event: International Journalism Festival
+  url: http://www.journalismfestival.com/
+  month: 4
+  month-name: April
+  year: 2014
+  role: Trainer
+
+- event: Berliner Gazette Complicity
+  url: http://berlinergazette.de/symposium/complicity/
+  month: 11
+  month-name: November
+  year: 2013
+  role: Hacker
+
+- event: BBC NewsHack
+  url: http://newshack.co.uk/home/newshack-2013/
+  month: 11
+  month-name: November
+  year: 2013
+  role: Hacker
+
+- event: Mozilla Festival
+  url: http://2013.mozillafestival.org/
+  month: 10
+  month-name: October
+  year: 2013
+  role: Speaker
+
+- event: Chicas Poderosas Bogotá
+  url: http://www.meetup.com/Chicas-Poderosas/events/136815382/
+  month: 9
+  month-name: September
+  year: 2013
+  role: Mentor
+
+- event: Hacks/Hackers BA Media Party 2013
+  url: http://mediaparty.info/
+  month: 8
+  month-name: August
+  year: 2013
+  role: Speaker
+
+- event: Garage lab OpenNews Hack week
+  url:
+  month: 9
+  month-name: September
+  year: 2014
+  role: Hacker
+
+- event: Re:publica 13
+  url: http://13.re-publica.de/
+  month: 5
+  month-name: May
+  year: 2013
+  role: Speaker
+
+- event: GEN hackday in Austria
+  url: http://www.globaleditorsnetwork.org/editors-lab/austria/
+  month: 3
+  month-name: March
+  year: 2013
+  role: Hacker
+
+- event: Mozilla Festival
+  url: http://2012.mozillafestival.org/
+  month: 11
+  month-name: November
+  year: 2012
+  role:
+
+- event: AdaCamp Berlin
+  url: http://berlin.adacamp.org/
+  month: 10
+  month-name: October
+  year: 2014
+  role:
+
+- event: Open Knowledge Festival
+  url: http://2014.okfestival.org
+  month: 7
+  month-name: July
+  year: 2014
+  role:
+
+- event: CSV, Conf
+  url: http://csvconf.com/
+  month: 7
+  month-name: July
+  year: 2014
+  role:
+  favourite: true
+
+- event: Dataharvest &amp; Dataharvest Hackathon
+  url: http://www.journalismfund.eu/dhplus
+  month: 5
+  month-name: May
+  year: 2014
+  role:
+
+- event: Archiving Newsapps
+  url: https://wiki.mozilla.org/OpenNews/hackdays/archive
+  month: 3
+  month-name: March
+  year: 2014
+  role:
+
+- event: Nicar 2014 Baltimore
+  url: http://ire.org/conferences/nicar-2014/
+  month: 2
+  month-name: February
+  year: 2014
+  role:
+
+- event: Monkigras
+  url: http://monkigras.com/
+  month: 1
+  month-name: January
+  year: 2014
+  role:
+  favourite: true
+
+- event: 30th Chaos Communication Congress
+  url: http://events.ccc.de/
+  month: 12
+  month-name: December
+  year: 2013
+  role:
+  favourite: true
+
+- event: SIGINT 2013
+  url: http://sigint.ccc.de/
+  month: 7
+  month-name: July
+  year: 2013
+  role:
+
+- event: Netzwerk Recherche (nr13)
+  url: http://netzwerkrecherche.org/wordpress/nr14/
+  month: 6
+  month-name: June
+  year: 2013
+  role:
+
+- event: MIT-Knight Civic Media Conference
+  url: https://civic.mit.edu/conference2013/
+  month: 6
+  month-name: June
+  year: 2013
+  role:
+
+- event: Dataharvest &amp; Dataharvest Hackathon
+  url: http://www.journalismfund.eu/dataharvest13
+  month: 5
+  month-name: May
+  year: 2013
+  role:
+
+- event: International Journalism Festival 2013
+  url: http://www.journalismfestival.com/
+  month: 4
+  month-name: April
+  year: 2013
+  role:
+
+- event: news:rewired
+  url: http://www.newsrewired.com/
+  month: 4
+  month-name: April
+  year: 2013
+  role:
+
+- event: Malofiej 21
+  url: http://www.malofiejgraphics.com/
+  month: 3
+  month-name: March
+  year: 2013
+  role:
+
+- event: Nicar 2013 Louisville
+  url: http://ire.org/conferences/nicar-2013/
+  month: 2
+  month-name: February
+  year: 2013
+  role:
+
+- event: Webstock 2013
+  url: http://www.webstock.org.nz/
+  month: 2
+  month-name: February
+  year: 2013
+  role:
+  favourite: true
