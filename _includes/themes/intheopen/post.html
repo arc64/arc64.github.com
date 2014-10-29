@@ -1,121 +1,23 @@
 
-<style>
- header[role="masthead"]{
-    position: absolute;
-  }
-  .content {margin:0; padding:0;}
+{% include themes/intheopen/includes/header.html %}
 
-  header[role="masthead"] {
-    overflow: hidden;
-    position: fixed;
+<div class="container">
 
-    padding: 0;
-    width: 30%;
-    height: 100%;
-  }
+  <div class="content">
+      <article>
+          {% include themes/intheopen/includes/title.html %}
 
-  header img {
-    height: 100%;
-    width: auto;
-    max-width: auto !imporant;
-    max-height:100%;
-  }
+          {{ content }}
+          <span class="date">{{ page.date | date_to_long_string }} </span>
+      </article>
+  </div>
 
-  aside {
-    width: auto;
-    position: inherit;
-    padding: 0;
-  }
+</div>
 
-  main.post {
-    border-bottom-color: rgb(222, 222, 220);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    margin-bottom: 2em;
-  }
+{% include themes/intheopen/includes/footer.html %}
 
-
-  nav {
-    background-color: #fff;
-    color: #000;
-  }
-
-.post article {
-   margin-top: 0;
-   border-bottom: none;
-}
-
-.post aside{
-  position: inherit;
-}
-
-h1 small {
-  clear: both;
-  display: inline-block;
-}
-
- figure {
-    margin-bottom: 20px;
-  }
-
-  nav {
-    display: none;
-  }
-
-@media (max-width: 1000px) {
-  header[role="masthead"].post h1 {
-    bottom: 10px;
-    padding-bottom: 0;
-  }
-
-  .post h1 {
-     font-size: 36px;
-     padding-top: 0.8em;
-  }
-
-  header[role="masthead"].post {
-    position: relative;
-    width: 100%;
-  }
-
-  header img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .post .content {
-    padding: 0 3em;
-  }
-
-
-}
-
-@media (max-width: 500px){
-  .post h1 {
-    /*font-size: 36px;*/
-  }
-</style>
-    <header role="masthead" class="post">
-
-      <!-- randomise these photos -->
-      <img alt="Hacking at OHM by Alexandre Dulaunoy" src="/assets/themes/intheopen/img/ohm-hacking.jpg" />
-
-      <h1><a title="home" href="/">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a></h1>
-    </header>
-
-    <div class="main post">
-      <div class="content">
-
-      <main>
-         /* <header>
-            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-
-          </header>*/
-          <article>
-            <span class="prearticle"><span class="date">{{ page.date | date_to_long_string }} </span>&sdot;&nbsp;</span>  {{ content }}
-          </article>
-      </main>
+<!--   &middot; <img alt="Hacking at OHM by Alexandre Dulaunoy" src="/assets/themes/intheopen/img/ohm-hacking.jpg" />
+ -->
 
 
 <!--
@@ -154,24 +56,6 @@ h1 small {
     <hr>
     {% include JB/comments %}
   -->
-      <aside class="post">
-         <!-- <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a> -->
-        <p class="description"> I am a <a href="http://www.mozillaopennews.org/" title="See all the fellows">Knight-Mozilla OpenNews Fellow</a>. A coder embeded in the newsroom at <a href="http://zeit.de">Zeit Online</a>. &mdash;   <a href="https://twitter.com/annabelchurch‎" title="find me on the twitters">@annabelchurch</a>
-        </p>
-        <!--  <p>Using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        </p> -->
-      </aside>
-    </div>
 
 
 
-
-    <!-- nav | post.html -->
-    <nav>
-       <!--  <ul class="nav">
-          <li><a href="/" title="Home">Home</a></li>
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
-        </ul> -->
-    </nav>

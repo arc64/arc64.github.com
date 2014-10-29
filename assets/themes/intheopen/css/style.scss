@@ -7,16 +7,16 @@
 * Variables
 */
 
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
 $heading-font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-$accent-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$accent-font-family: $base-font-family;
 $base-font-size:   16px;
 $base-line-height: 1.5;
 
 $small-font-size:  $base-font-size * 0.875;
-$medium-font-size: $base-font-size * 1.5;  // 24px;
+$medium-font-size: $base-font-size * 1.25;  // 24px;
 $large-font-size:  $base-font-size * 2.5; // 40px;
-$xlarge-font-size:  $base-font-size * 2.875; // 46px;
+$xlarge-font-size:  $base-font-size * 3.5625; // 57px;
 
 $spacing-unit:     30px;
 
@@ -52,6 +52,26 @@ $wrapper-width:    900px;
     column-gap: $column-gap;
 }
 
+@mixin transition(){
+    transition-property: all;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: cubic-bezier(0.165,0.630,0.140,0.820);
+    -moz-transition-timing-function: cubic-bezier(0.165,0.630,0.140,0.820);
+    -ms-transition-timing-function: cubic-bezier(0.165,0.630,0.140,0.820);
+    -o-transition-timing-function: cubic-bezier(0.165,0.630,0.140,0.820);
+    transition-timing-function: cubic-bezier(0.165,0.630,0.140,0.820);
+    // -webkit-font-smoothing: antialiased;
+}
+
+@mixin greyscale(){
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
@@ -59,16 +79,7 @@ $wrapper-width:    900px;
     "styley"
 ;
 
-// body {
-//      background: url("../img/annabel_01.png") no-repeat 50% 20px;
-//       background-size: 100%;
-// }
-
-article h1 {
-    background: url("../img/icon_9569.svg") no-repeat 50% 40px;
-background-size: 20%;
-}
-
-.column {
-    @include column (3, 2em);
+body {
+     // background: url("../img/annabel_01.png") no-repeat 50% 20px;
+     //  background-size: 100%;
 }

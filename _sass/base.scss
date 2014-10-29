@@ -80,16 +80,20 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 a {
-    color: $brand-color;
+    color: $text-color;
+    //color: $brand-color;
     text-decoration: none;
+    border-bottom: 2px solid #e1e1e1;
 
     &:visited {
         // color: darken($brand-color, 15%);
     }
 
     &:hover {
-       // color: $text-color;
-        color: $link-color-dark;
+        border-color: $brand-color;
+        color: $text-color;
+        @include transition;
+        // color: $link-color-dark;
     }
 }
 
@@ -98,11 +102,13 @@ a {
  */
 
 blockquote {
+    font-style: italic;
     border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
-    font-size: 20px;
+    font-size: $medium-font-size;
     letter-spacing: -1px;
     line-height: 1.5;
+    margin: 1em 0 1em 1em;
 
     > :last-child {
         margin-bottom: 0;
@@ -161,6 +167,22 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+hr {
+    border-bottom: 4px solid $text-color;
+    margin-bottom: 1em;
+}
+
+strong {
+    color: $brand-color;
+    font-weight: 700;
+}
+
+small {
+    font-family: $base-font-family;
+    font-weight: 300;
+    letter-spacing: normal;
 }
 
 /**
