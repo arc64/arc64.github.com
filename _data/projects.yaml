@@ -1,30 +1,81 @@
 - projects: News Reads Us
   title:  <strong>News Reads Us</strong> tracking from news sites.
-  description: A hackday project using Ghostery and Lightbeam to show the amount of digital tracking used by top German news sites and who ends up with the information. Highlights the questions of whether users should accept the surveillance or whether news sites should more carefully control the data they share with third party providers.
+  description: |
+    A hackday project using Ghostery and Lightbeam to show the amount
+    of digital tracking used by top German news sites and who ends up
+    with the information. Highlights the questions of whether users
+    should accept the surveillance or whether news sites should more
+    carefully control the data they share with third party providers.
   type: hack
   url: http://newsreadsus.okfn.de/
   month:
   month-name:
   year:
 
-- projects: Storypull
-  title: <strong>Storypull</strong> git for storytelling.
-  description: A hackday project inspired by github, Storypull is a prototype for pull requests on news stories. Allowing specialists like those with local knowledge or domain knowledge to actively collaborate with journalists and contribute to living stories.
-  type: hack
-  url: http://storypull.herokuapp.com/
+- projects: Open Knowledge Festival Report
+  title: OKFestival <strong>Postscript</strong>.
+  description: |
+    A reporting site showing fun analysis of the goings on of the Open Knowledge
+    Festival that occurred in Berlin in the summer of 2013.
+    A great summary of key stories, sentiment, analysis and media.
+  url: http://report2014.okfestival.org/
   month:
   month-name:
   year:
 
+- projects: Hacks/Hackers Berlin
+  title: Co-organising <strong>Hacks/Hackers</strong> Berlin.
+  description: |
+    Hack/Hackers Berlin is the second largest meetup between
+    Journalists and Technologists in Europe. The aim is to bring
+    together coders, journalists and all those who are interested in the
+    intersection together to explore, collaborate, teach and learn on a monthly basis.
+    I have had the pleasure of co-organising this since May 2013.
+  url: www.meetup.com/Hacks-Hackers-Berlin/
+  month:
+  month-name:
+  year:
+
+
 - projects: Datawi.re
   title: <strong>Datawi.re</strong> a data feed for journalists.
-  description: Providing journalists and other researchers with an easy way of subscribing to a feed of data records that may be of interest. To effectively track topics, people, organisations and places of interest, datawi.re helped its users create semantic, structured watchlists.
+  description: |
+    Providing journalists and other researchers with an easy way of
+    subscribing to a feed of data records that may be of interest.
+    To effectively track topics, people, organisations and places of interest,
+    datawi.re helped its users create semantic, structured watch-lists.
   type:
   url: https://github.com/pudo/datawi.re/blob/master/README.md
   month:
   month-name:
   year:
 
+- projects: Data stringers
+  title: <strong>Data stringers</strong> when a project fails do a workshop.
+  description: |
+    It turns out the Datawi.re didn't really live up to our expectations,
+    and a model of consuming many data was too broad for the journalism use cases we wanted to solve.
+    So to break down the problem both <a href="http://www.twitter.com/pudo">@pudo</a>
+    and I ran data stringers workshops at Mozfest and Hacks/Hackers.
+    One of the lovely outcomes of this was that
+    <a href="https://twitter.com/basilesimon">Basile Simon</a> created a real live <a href="https://github.com/BBC-News-Labs/datastringer">Datastringer</a>.
+  url: https://source.opennews.org/en-US/articles/bbc-news-labs-datastringer/
+  month:
+  month-name:
+  year:
+
+- projects: Storypull
+  title: <strong>Storypull</strong> git for storytelling.
+  description: |
+    A hackday project inspired by github, Storypull is a prototype for pull
+    requests on news stories. Allowing specialists like those with local
+    knowledge or domain knowledge to actively collaborate with journalists
+    and contribute to living stories.
+  type: hack
+  url: http://storypull.herokuapp.com/
+  month:
+  month-name:
+  year:
 
 # - projects: Twindle
 #   title:
@@ -34,13 +85,7 @@
 #   month-name:
 #   year:
 
-- projects: Open Knowledge Festival Report
-  title: OKFestival <strong>Postscript</strong>.
-  description: A reporting site showing fun analysis of the goings on of the Open Knowledge Festival that occured in Berlin in the summer of 2013. A great summary of key stories, sentiment, analysis and media.
-  url: http://report2014.okfestival.org/
-  month:
-  month-name:
-  year:
+
 
 # - projects: Predicting coalitions
 #   title:
@@ -50,13 +95,17 @@
 #   month-name:
 #   year:
 
-# - projects: Snowfall for Zeit
-#   title:
-#   description:
-#   url:
-#   month:
-#   month-name:
-#   year:
+- projects: Snowfall for Zeit
+  title: <strong>Tour de France</strong> Snowfall for Zeit.
+  description: |
+    ZeitOnline's first experiment with long form journalism,
+    that explores the impact of the event on the local community,
+    the differences between amateur and professional riders, and how doping works.
+    Produced with data visualisations, multimedia, beautiful photos and, of course, much scrolling.
+  url: http://www.zeit.de/sport/tour-de-france.html
+  month:
+  month-name:
+  year:
 
 # - projects: Bubbleup
 #   title:
@@ -66,13 +115,30 @@
 #   month-name:
 #   year:
 
-# - projects: Wahlflopper
-#   title:
-#   description:
-#   url:
-#   month:
-#   month-name:
-#   year:
+- projects: Wahlflopper
+  title: <strong>Wahlflopper</strong> video remix for election defeat.
+  description: |
+    Using popcorn.js Wahlflopper is an in-browser video manipulation tool this project
+    allows for users to remix set snippets of video. The intended use was for election
+    defeat videos to be remixed with popular video into short, hilarious videos that
+    could be shared. Viral schadenfreude.
+  url: https://github.com/arc64/wahlflopper
+  month:
+  month-name:
+  year:
+
+- projects: Kutzu
+  title: <strong>Kutzu</strong> video commenting Vine.
+  description: |
+     A hackday project project that encouraged user engagement by allowing journalists to pose specific
+    questions on their own articles with Vine, and to have commenters respond in kind. The hope would be
+    that user generated content could be then additionally remixed by the newsroom.
+  url: http://kudzu.herokuapp.com/article
+  month:
+  month-name:
+  year:
+
+
 
 # - projects: wtfwww
 #   title:
@@ -82,7 +148,15 @@
 #   month-name:
 #   year:
 
-# - projects: favcasts
+- projects: favcasts
+  title: <strong>Favcasts</strong> audio reviews.
+  description: Audio reviews for podcasting &mdash; our favourite words for the ears. This is just the beginning.
+  url: http://favcasts.com
+  month:
+  month-name:
+  year:
+
+# - projects: Hacks/Hackers Europe
 #   title:
 #   description:
 #   url:
@@ -90,29 +164,6 @@
 #   month-name:
 #   year:
 
-# - projects: HH eu
-#   title:
-#   description:
-#   url:
-#   month:
-#   month-name:
-#   year:
-
-# - projects: HH berlin
-#   title:
-#   description:
-#   url:
-#   month:
-#   month-name:
-#   year:
-
-# - projects: Data stringers
-#   title:
-#   description:
-#   url:
-#   month:
-#   month-name:
-#   year:
 
 # Started:
 # #tartort - twitort
