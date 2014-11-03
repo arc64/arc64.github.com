@@ -1,6 +1,6 @@
 - projects: News Reads Us
   title:  <strong>News Reads Us</strong> tracking from news sites.
-  description: A hackday project using Ghostery and Lightbeam to show the amout of digital tracking used by top German news sites and who ends up with the information. Highlights the questions of whether users should accept the surveillance or whether news sites should more carefully control the data they share with third party providers.
+  description: A hackday project using Ghostery and Lightbeam to show the amount of digital tracking used by top German news sites and who ends up with the information. Highlights the questions of whether users should accept the surveillance or whether news sites should more carefully control the data they share with third party providers.
   type: hack
   url: http://newsreadsus.okfn.de/
   month:
