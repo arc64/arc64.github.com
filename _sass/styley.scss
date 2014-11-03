@@ -30,6 +30,7 @@ header[role="masthead"] {
     small {
         float: right;
         line-height: 1;
+        font-weight: 500;
     }
 
 /*
@@ -267,6 +268,22 @@ h1 {
         font-size: 40px;
     }
 }
+
+/*
+*
+*/
+.projects {
+    .pull {
+        width: 297.625px;
+        float: left;
+        margin-right: 0.8em;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+/******/
 
 section {
     padding-bottom: 3em;

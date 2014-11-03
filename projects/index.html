@@ -6,3 +6,17 @@ description:
 ---
 
 {% include themes/intheopen/includes/title.html %}
+
+<div class="projects">
+    {% assign projects = site.data.projects %}
+    {% for project in projects %}
+
+    <section>
+        <a href="{{ project.url }}" class="pull">
+            {{ project.title }}
+        </a>
+        <p> {{ project.description }} </p>
+    </section>
+
+    {% endfor %}
+</div>
