@@ -5,7 +5,6 @@ tags : [l]
 title: A little **note**
 tagline: <small>about me</small>
 
-opennews: false
 unlisted: false
 ---
 {% include JB/setup %}
