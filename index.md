@@ -1,7 +1,7 @@
 ---
 layout: page
-title: in the open
-tagline: from the newsroom
+title: me
+tagline: coder, coffee drinker
 description:
 ---
 
@@ -14,12 +14,14 @@ description:
 			<article>
 				<header>
 
-					<a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}">
+					<!-- <a title="read more on {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}"> -->
 			    		<h1> {{ post.title | markdownify | remove: '<p>' | remove: '</p>'}} {% if post.tagline %}<small>{{ post.tagline }}</small>{% endif %}</h1>
-			   		</a>
+			   		<!-- </a> -->
 
 			    </header>
+                    <div class="column">
 					{{ post.content }}
+                    </div>
 			    	<!-- {% unless post.tags == empty %}
 					    <ul class="tags inline">
 					      {% assign tags_list = post.tags %}
@@ -33,7 +35,7 @@ description:
 
 </section>
 
- <section>
+<section>
     <nav class="column">
         <a href="/events" class="pull">
 			Events where I've been a <strong>speaker</strong>
@@ -48,6 +50,10 @@ description:
 </section>
 
 <section>
-	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam massa, pulvinar a nunc eget, bibendum
-varius metus ultrices nec. Nullam dapibus libero eu lobortis egestas. Nulla at tortor aliquam, varius purus vitae, bibendum tellus. Pellentesque efficitur ligula in lorem pharetra fringilla. Nulla varius felis ornare pharetra lacinia.</p>
+<figure class="quote">
+
+<blockquote cite="Dr. Seuss">You have brains in your head. You have feet in your shoes. You can steer yourself in any direction you choose. You're on your own, and you know what you know. And you are the guy who'll decide where to go. &mdash;<strong>Dr. Seuss</strong></blockquote>
+
+</figure>
+
 </section>

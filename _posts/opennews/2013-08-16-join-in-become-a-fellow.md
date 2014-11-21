@@ -10,8 +10,6 @@ unlisted: false
 ---
 {% include JB/setup %}
 
-<div class="column" markdown="1">
-
 So, tonight is the last night to get your application in. Tomorrow, applications close to become a Knight-Mozilla Fellow in 2014. Maybe you still don't know [why you would apply](http://dansinker.com/post/58361079881/opennews-looking-vs-leaping). Why you should join us on a [ride of a lifetime](http://dansinker.com/post/57449914079/opennews-knight-mozilla-fellowships-what-do-you). Why you [shouldn't be afraid of what happens after](http://slifty.com/2013/08/opennews-applicants-be-warned/).
 
 <figure>
@@ -30,4 +28,4 @@ My fellowship feels a bit like an extended OHM, a summer camp, surrounded by a t
 If you are a coder, seething with passion and an ability to make and create. If you want a year freely exploring a newsroom and hacking on journalism. If you want to join a community of passionate people at the intersection of technology and journalism. [This is the place for you](http://mozillaopennews.org/fellowships/apply.html).
 
 <p><small>* Nearly a year. A bit like summer camp.</small></p>
-</div>
+

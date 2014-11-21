@@ -7,7 +7,12 @@
       <article>
           {% include themes/intheopen/includes/title.html %}
 
+          <div class="column">
+
           {{ content }}
+
+          </div>
+
           <span class="date">{{ page.date | date_to_long_string }} </span>
       </article>
   </div>
