@@ -133,6 +133,12 @@ blockquote {
     //     content: close-quote;
     //     margin-left: 0.1em;
     // }
+    a {
+        border-bottom: none;
+    }
+    a:hover {
+        border-bottom: 2px solid #fb2507;
+    }
 }
 
 cite,

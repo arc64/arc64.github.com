@@ -52,7 +52,7 @@ description:
 <section>
 <figure class="quote">
 
-<blockquote cite="Grace Hopper">Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise. &mdash;<strong>Grace Hopper</strong></blockquote>
+<blockquote cite="Grace Hopper">Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise. &mdash; <a href="http://en.wikipedia.org/wiki/Grace_Hopper"><strong>Grace Hopper</strong></a></blockquote>
 
 </figure>
 
