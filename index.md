@@ -52,7 +52,7 @@ description:
 <section>
 <figure class="quote">
 
-<blockquote cite="Dr. Seuss">You have brains in your head. You have feet in your shoes. You can steer yourself in any direction you choose. You're on your own, and you know what you know. And you are the guy who'll decide where to go. &mdash;<strong>Dr. Seuss</strong></blockquote>
+<blockquote cite="Grace Hopper">Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise. &mdash;<strong>Grace Hopper</strong></blockquote>
 
 </figure>
 
