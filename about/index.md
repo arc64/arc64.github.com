@@ -43,7 +43,7 @@ description:
     <img alt="Me - Annabel Church" src="/assets/themes/intheopen/img/arc-bio-nice-bw-small.png" />
 </figure>
 
-<p>Annabel is currently building journalism tools, and working with journalists on data driven story telling.  She was a Knight-Mozilla 2013 OpenNews Fellow at ZeitOnline, and previously worked building tools for journalists at the Guardian. She helps to build a community at the intersection between Journalism and technology by co-organising Hacks and Hackers in Berlin.</p>
+<p>Annabel is currently building journalism tools, and working with journalists to explore data driven storytelling.  She was a Knight-Mozilla 2013 OpenNews Fellow at ZeitOnline, and previously worked building tools for journalists at the Guardian. She helps to build a community at the intersection between Journalism and technology by co-organising Hacks and Hackers in Berlin.</p>
 
 <p>
     <ul>
