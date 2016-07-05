@@ -627,5 +627,14 @@
   favourite: true
   where: Bletchley Park, United Kingdom
 
+- event: FOSDEM &ndash; Free and Open Source developers
+  url: https://archive.fosdem.org/2008/
+  month: 3
+  month-name: March
+  year: 2008
+  role:
+  favourite:
+  where: Brussels Belgium
+
 
 
