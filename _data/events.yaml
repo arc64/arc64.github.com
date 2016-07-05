@@ -1,10 +1,285 @@
-- event: Black Forest Journalism
+# Did you go?
+# Geeky, October 23, 2012, London
+# Play The News: Fun And Games in Digital Journalism - Report Launch, February 17, 2015
+# Catalytic Converter 2016,  April 15, 2016
+# BG Slow Politics
+
+# Relevancy?
+## Women Who Code MeetUp, August 25, 2015, Berlin
+## Beer Gardens with Lesbians Who Tech, Berlin Geekettes & Unicorns in Tech
+## NewsGames meetup , 24 September 2015 , London
+## Edin. Comedy festival
+## Lunch event at ODI London 2015
+## Event with movie in potsdam
+
+- event: Dataharvest &amp; Dataharvest Hackathon
+  url: http://www.journalismfund.eu/eijc16
+  month: 6
+  month-name: June
+  year: 2016
+  role: Hacker
+  favourite:
+  where: Mechelen, Belgium
+
+- event: FoME Jour Fixe about Exile Media in Germany
+  url: http://fome.info/allgemein/jour-fixe-2016-schedule
+  month: 5
+  month-name: May
+  year: 2016
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: Global Innovation Gathering Workshop
+  url:
+  month: 5
+  month-name: May
+  year: 2016
+  role: Mentor
+  favourite:
+  where: Berlin, Germany
+
+- event: CSV,Conf,v2
+  url: http://csvconf.com/
+  month: 5
+  month-name: May
+  year: 2016
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: Open Tech Summit
+  url: http://opentechsummit.net/
+  month: 5
+  month-name: May
+  year: 2016
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: Re:publica
+  url: https://re-publica.de/en
+  month: 5
+  month-name: May
+  year: 2016
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: NICAR 2016 Denver
+  url: http://www.ire.org/conferences/nicar2016/
+  month: 3
+  month-name: March
+  year: 2016
+  role:
+  favourite:
+  where: Denver, USA
+
+- event: AAJA Executive Leadership Program Class of 2016
+  url: http://www.aaja.org/2016-elp-class/
+  month: 3
+  month-name: March
+  year: 2016
+  role:
+  favourite: True
+  where: Cuny Graduate School, NYC, London
+
+- event: Hacks/Hackers Connect London
+  url: http://connect.hackshackers.com/event/london/
+  month: 2
+  month-name: February
+  year: 2016
+  role:
+  favourite:
+  where: London, United Kingdom
+
+- event: jHub training
+  url:
+  month: 1
+  month-name: January
+  year: 2016
+  role: Trainer
+  favourite:
+  where: Juba, South Sudan
+
+- event: Monkigras
+  url: http://monkigras.com/
+  month: 1
+  month-name: January
+  year: 2016
+  role:
+  favourite: true
+  where: London, United Kingdom
+
+- event: 32th Chaos Communication Congress
+  url: http://events.ccc.de/
+  month: 12
+  month-name: December
+  year: 2015
+  role:
+  favourite: true
+  where: Hamburg, Germany
+
+- event: Empowerhack
+  url: http://empowerhack.io/
+  month: 11
+  month-name: November
+  year: 2015
+  role: Hacker
+  favourite:
+  where: London, United Kingdom
+
+- event: The 19 Million project
+  url: http://the19millionproject.com/
+  month: 11
+  month-name: November
+  year: 2015
+  role: Hacker
+  favourite:
+  where: Rome, Italy
+
+- event: Berlin Refugee Hackathon
+  url: http://refugeehackathon.de/en/
+  month: 10
+  month-name: October
+  year: 2015
+  role:
+  favourite:
+  where: Berlin, London
+
+- event: Young Journalists for Tomorrow's Europe
+  url: http://www.facebook.com/yjte.ba
+  month: 10
+  month-name: October
+  year: 2015
+  role: Trainer
+  favourite: Bratislava, Slovakia
+
+- event: Redecentralize
+  url: http://redecentralize.org/conference/
+  month: 10
+  month-name: October
+  year: 2015
+  role:
+  favourite:
+  where: London, United Kingdom
+
+- event: Berliner Gazzette Un|commons
+  url: http://berlinergazette.de/uncommons/
+  month: 10
+  month-name: October
+  year: 2015
+  role:
+  favourite:
+  where: Berlin, United Kingdom
+
+- event: Wadden See Meet-Up
   url:
   month: 10
   month-name: October
-  year: 2014
+  year: 2015
   role: Hiker
   favourite: true
+  where: Wadden See, Germany
+
+- event: Chaos Communication Camp 2015
+  url: https://events.ccc.de/camp/2015/wiki/Main_Page
+  month: 8
+  month-name: August
+  year: 2015
+  role:
+  favourite: true
+  where: Ziegeleipark Mildenberg, Zehdenick, Germany
+
+- event: BBC NewsHACK EditorsLab
+  url: http://www.globaleditorsnetwork.org/programmes/editors-lab/editors-lab-in-london/
+  month: 6
+  month-name: June
+  year: 2015
+  role: Hacker
+  favourite:
+  where: London, United Kingdom
+
+- event: Hacks/Hackers Connect Berlin
+  url: http://connect.hackshackers.com/event/berlin/
+  month: 6
+  month-name: June
+  year: 2015
+  role: Mentor
+  favourite:
+  where: Berlin, Germany
+
+- event: Open Source // Open Society
+  url: https://osos2015.sched.org/
+  month: 4
+  month-name: April
+  year: 2015
+  role:
+  favourite:
+  where: Wellington, New Zealand
+
+- event: NICAR 2015 Atlanta
+  url: http://ire.org/conferences/nicar2015/
+  month: 3
+  month-name: March
+  year: 2015
+  role:
+  favourite:
+  where: Atlanta, USA
+
+- event: Let’s Talk Culture @ Vox Media
+  url: https://nvite.com/letstalkculture/fb92
+  month: 3
+  month-name: March
+  year: 2015
+  role:
+  favourite:
+  where: Washington DC, USA
+
+- event: Hacks/Hackers Philladelphia
+  url: http://www.meetup.com/Hacks-Hackers-Philadelphia/events/220757496/
+  month: 3
+  month-name: March
+  year: 2015
+  role: Speaker
+  favourite:
+  where: Philladelphia, USA
+
+- event: NYPL Labs Civic Data Hack Day
+  url: https://www.nypl.org/events/programs/2015/02/07/nypl-labs-civic-data-hack-day
+  month: 2
+  month-name: February
+  year: 2015
+  role: Attendee
+  favourite:
+  where: New York, USA
+
+- event: Cracking the Code &colon; Success for Women Digital News Entrepreneurs
+  url: https://www.iwmf.org/programs/cracking-the-code/
+  month: 1
+  month-name: January
+  year: 2015
+  role:
+  favourite:
+  where: New York, USA
+
+- event: IWMF Hackathon
+  url: https://www.iwmf.org/programs/cracking-the-code/hackathon/
+  month: 1
+  month-name: January
+  year: 2015
+  role: Hacker
+  favourite:
+  where: New York, USA
+
+- event: 31th Chaos Communication Congress
+  url: http://events.ccc.de/
+  month: 12
+  month-name: December
+  year: 2014
+  role:
+  favourite:
+  where: Hamburg, Germany
 
 - event: DataKind Autumn DataDive
   url: http://www.datakind.org/blog/datakind-uk-autumn-datadive-3-5-oct/
@@ -12,6 +287,7 @@
   month-name: October
   year: 2014
   role: Hacker
+  where: London, United Kingdom
 
 - event: SRCCON 2014
   url: http://srccon.org/
@@ -19,6 +295,7 @@
   month-name: July
   year: 2014
   role: Speaker
+  where: Philadelphia, USA
 
 - event: School of Data Summer camp
   url: http://schoolofdata.org/school-of-data-summer-camp/
@@ -26,6 +303,7 @@
   month-name: July
   year: 2014
   role: Maker
+  where: Potsdam, Germany
 
 - event: Netzwerk Recherche 14
   url: http://netzwerkrecherche.org/wordpress/nr14/
@@ -33,6 +311,7 @@
   month-name: July
   year: 2014
   role: Panellist
+  where: Hamburg, Germany
 
 - event: Coliberator
   url: http://coliberator.ceata.org/index.en.html
@@ -40,6 +319,7 @@
   month-name: June
   year: 2014
   role: Speaker
+  where: Bucharest, Romania
 
 - event: GEN Hackday Finals Barcelona
   url: http://www.globaleditorsnetwork.org/programmes/editors-lab/season-2013-2014/editors-lab-hackdays-final/
@@ -47,6 +327,7 @@
   month-name: June
   year: 2014
   role: Hacker
+  where: Barcelona, Spain
 
 - event: Chicas Poderosas Miami
   url: http://www.chicaspoderosas.org/chicas-poderosas-miami-speakers-and-mentors/
@@ -54,6 +335,7 @@
   month-name: May
   year: 2014
   role: Mentor
+  where: Miami, USA
 
 - event: GEN F.A.Z. Hackday
   url: http://www.globaleditorsnetwork.org/programmes/editors-lab/previous-season-(2013-2014)/editors-lab-berlin/
@@ -61,6 +343,7 @@
   month-name: May
   year: 2014
   role: Hacker
+  where: Berlin, Germany
 
 - event: International Journalism Festival
   url: http://www.journalismfestival.com/
@@ -68,69 +351,24 @@
   month-name: April
   year: 2014
   role: Trainer
+  where: Perugia, Italy
 
-- event: Berliner Gazette Complicity
-  url: http://berlinergazette.de/symposium/complicity/
-  month: 11
-  month-name: November
-  year: 2013
-  role: Hacker
-
-- event: BBC NewsHack
-  url: http://newshack.co.uk/home/newshack-2013/
-  month: 11
-  month-name: November
-  year: 2013
-  role: Hacker
-
-- event: Mozilla Festival
-  url: http://2013.mozillafestival.org/
+- event: Black Forest Journalism
+  url:
   month: 10
   month-name: October
-  year: 2013
-  role: Speaker
+  year: 2014
+  role: Hiker
+  favourite: true
+  where: Black Forest, Germany
 
-- event: Chicas Poderosas Bogotá
-  url: http://www.meetup.com/Chicas-Poderosas/events/136815382/
-  month: 9
-  month-name: September
-  year: 2013
-  role: Mentor
-
-- event: Hacks/Hackers BA Media Party 2013
-  url: http://mediaparty.info/
-  month: 8
-  month-name: August
-  year: 2013
-  role: Speaker
-
-- event: Garage lab OpenNews Hack week
+- event: Scoopcamp
   url:
   month: 9
   month-name: September
   year: 2014
-  role: Hacker
-
-- event: Re:publica 13
-  url: http://13.re-publica.de/
-  month: 5
-  month-name: May
-  year: 2013
-  role: Speaker
-
-- event: GEN hackday in Austria
-  url: http://www.globaleditorsnetwork.org/editors-lab/austria/
-  month: 3
-  month-name: March
-  year: 2013
-  role: Hacker
-
-- event: Mozilla Festival
-  url: http://2012.mozillafestival.org/
-  month: 11
-  month-name: November
-  year: 2012
   role:
+  where: Hamburg, Germany
 
 - event: AdaCamp Berlin
   url: http://berlin.adacamp.org/
@@ -138,6 +376,7 @@
   month-name: October
   year: 2014
   role:
+  where: Berlin, Germany
 
 - event: Open Knowledge Festival
   url: http://2014.okfestival.org
@@ -145,6 +384,7 @@
   month-name: July
   year: 2014
   role:
+  where: Berlin, Germany
 
 - event: CSV, Conf
   url: http://csvconf.com/
@@ -153,6 +393,7 @@
   year: 2014
   role:
   favourite: true
+  where: Berlin, Germany
 
 - event: Dataharvest &amp; Dataharvest Hackathon
   url: http://www.journalismfund.eu/dhplus
@@ -160,6 +401,7 @@
   month-name: May
   year: 2014
   role:
+  where: Brussels, Belgium
 
 - event: Archiving Newsapps
   url: https://wiki.mozilla.org/OpenNews/hackdays/archive
@@ -167,6 +409,7 @@
   month-name: March
   year: 2014
   role:
+  where: Washington DC, USA
 
 - event: Nicar 2014 Baltimore
   url: http://ire.org/conferences/nicar-2014/
@@ -174,6 +417,7 @@
   month-name: February
   year: 2014
   role:
+  where: Baltimore, USA
 
 - event: Monkigras
   url: http://monkigras.com/
@@ -181,7 +425,8 @@
   month-name: January
   year: 2014
   role:
-  favourite: true
+  favourite:
+  where: London, United Kingdom
 
 - event: 30th Chaos Communication Congress
   url: http://events.ccc.de/
@@ -189,7 +434,56 @@
   month-name: December
   year: 2013
   role:
-  favourite: true
+  favourite:
+  where: Hamburg, Germany
+
+- event: Berliner Gazette Complicity
+  url: http://berlinergazette.de/symposium/complicity/
+  month: 11
+  month-name: November
+  year: 2013
+  role: Hacker
+  where: Berlin, Germany
+
+- event: BBC NewsHack
+  url: http://newshack.co.uk/home/newshack-2013/
+  month: 11
+  month-name: November
+  year: 2013
+  role: Hacker
+  where: London, United Kingdom
+
+- event: Mozilla Festival
+  url: http://2013.mozillafestival.org/
+  month: 10
+  month-name: October
+  year: 2013
+  role: Speaker
+  where: London, United Kingdom
+
+- event: Chicas Poderosas Bogotá
+  url: http://www.meetup.com/Chicas-Poderosas/events/136815382/
+  month: 9
+  month-name: September
+  year: 2013
+  role: Mentor
+  where: Bogotá, Columbia
+
+- event: Garage lab OpenNews Hack week
+  url:
+  month: 9
+  month-name: September
+  year: 2013
+  role: Hacker
+  where: Buenos Aires, Argentina
+
+- event: Hacks/Hackers BA Media Party 2013
+  url: http://mediaparty.info/
+  month: 8
+  month-name: August
+  year: 2013
+  role: Speaker
+  where: Buenos Aires, Argentina
 
 - event: SIGINT 2013
   url: http://sigint.ccc.de/
@@ -197,13 +491,23 @@
   month-name: July
   year: 2013
   role:
+  where: Cologne, Germany
 
 - event: Netzwerk Recherche (nr13)
-  url: http://netzwerkrecherche.org/wordpress/nr14/
+  url: https://netzwerkrecherche.org/termine/termin/nr-jahreskonferenz-2013/
   month: 6
   month-name: June
   year: 2013
   role:
+  where: Hamburg, Germany
+
+- event: Knight-Mozilla-MIT 'Insider/Outsider' Civic Data Hack Day
+  url: https://source.opennews.org/en-US/articles/projects-opennews-mit-hack-day/
+  month: 6
+  month-name: June
+  year: 2013
+  role: Hacker
+  where: Boston, USA
 
 - event: MIT-Knight Civic Media Conference
   url: https://civic.mit.edu/conference2013/
@@ -211,13 +515,23 @@
   month-name: June
   year: 2013
   role:
+  where: Boston, USA
+
+- event: Re:publica 13
+  url: http://13.re-publica.de/
+  month: 5
+  month-name: May
+  year: 2013
+  role: Speaker
+  where: Berlin, Germany
 
 - event: Dataharvest &amp; Dataharvest Hackathon
   url: http://www.journalismfund.eu/dataharvest13
   month: 5
   month-name: May
   year: 2013
-  role:
+  role: Hacker
+  where: Brussels, Belgium
 
 - event: International Journalism Festival 2013
   url: http://www.journalismfestival.com/
@@ -225,6 +539,7 @@
   month-name: April
   year: 2013
   role:
+  where: Perugia, Italy
 
 - event: news:rewired
   url: http://www.newsrewired.com/
@@ -232,6 +547,15 @@
   month-name: April
   year: 2013
   role:
+  where: London, United Kingdom
+
+- event: GEN hackday in Austria
+  url: http://www.globaleditorsnetwork.org/editors-lab/austria/
+  month: 3
+  month-name: March
+  year: 2013
+  role: Hacker
+  where: Schwarzach, Austria
 
 - event: Malofiej 21
   url: http://www.malofiejgraphics.com/
@@ -239,6 +563,7 @@
   month-name: March
   year: 2013
   role:
+  where: Pamplona, Spain
 
 - event: Nicar 2013 Louisville
   url: http://ire.org/conferences/nicar-2013/
@@ -246,6 +571,7 @@
   month-name: February
   year: 2013
   role:
+  where: Louisville, USA
 
 - event: Webstock 2013
   url: http://www.webstock.org.nz/
@@ -254,3 +580,42 @@
   year: 2013
   role:
   favourite: true
+  where: Wellington, New Zealand
+
+- event: Mozilla Festival
+  url: http://2012.mozillafestival.org/
+  month: 11
+  month-name: November
+  year: 2012
+  role:
+  where: London, United Kingdom
+
+- event: Geek Lates
+  url: http://lanyrd.com/2012/geek-lates/
+  month: 11
+  month-name: November
+  year: 2012
+  role:
+  favourite:
+  where: London, United Kingdom
+
+- event: Ada Lovelace day
+  url: http://findingada.com/archives/events/ada-lovelace-day-live-2012/
+  month: 10
+  month-name: October
+  year: 2012
+  role:
+  favourite:
+  where: London, United Kingdom
+
+- event: Over the Air 2012
+  url: http://overtheair.org/
+  month: 6
+  month-name: June
+  year: 2012
+  role:
+  favourite: true
+  where: Bletchley Park, United Kingdom
+
+
+
