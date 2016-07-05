@@ -13,6 +13,11 @@
 ## Event with movie in potsdam
 
 
+#http://www.wan-ifra.org/events/world-publishing-expo-2013-ifra-expo-conference?view=tickets
+#http://www.mediahackday.com/
+
+
+
 - event: News Impact Summit
   url: http://newsimpact.io/
   month: 6
@@ -507,6 +512,15 @@
   role: Speaker
   where: Buenos Aires, Argentina
 
+- event: OHM 2013 &ndash; Observe, Hack, Make
+  url: https://ohm2013.org/
+  month: 7
+  month-name: July
+  year: 2013
+  role:
+  favourite:
+  where: Geestmerambacht, The Netherlands
+
 - event: SIGINT 2013
   url: http://sigint.ccc.de/
   month: 7
@@ -522,6 +536,15 @@
   year: 2013
   role:
   where: Hamburg, Germany
+
+- event: Write/Speak/Code!
+  url: http://www.writespeakcode.com/
+  month: 6
+  month-name: June
+  year: 2013
+  role: Mentor
+  favourite:
+  where: NYC, USA
 
 - event: Knight-Mozilla-MIT 'Insider/Outsider' Civic Data Hack Day
   url: https://source.opennews.org/en-US/articles/projects-opennews-mit-hack-day/
