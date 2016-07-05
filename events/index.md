@@ -20,7 +20,7 @@ description:
     {% for item in eventsSorted %}
 
 <!-- | group_by:"month"  -->
-    <li><a href="{{item.url}}" title="{{item.event}}"> {{item.event}} </a> &mdash; {{item.month-name}} {% if item.role %}<i class="fa fa-child" aria-hidden="true"></i><span class="fallback-text">{{item.role}}</span>{% endif %}</li>
+    <li>{% if item.url %}<a href="{{item.url}}" title="{{item.event}}">{% endif %} {{item.event}} {% if item.url %}</a>{% endif %} &mdash; {{item.month-name}} {% if item.role %}<i class="fa fa-child" aria-hidden="true"></i><span class="fallback-text">{{item.role}}</span>{% endif %}</li>
     {% endfor %}
 </ul>
 {% endfor %}
@@ -34,7 +34,7 @@ description:
 {% if group.name == 'true' %}
 <ul class="events">
     {% for item in group.items %}
-    <li><a href="{{item.url}}" title="{{item.event}}"> {{item.event}} </a> {% if item.favourite %}<i class="fa fa-heart" aria-hidden="true"></i><span class="fallback-text">favourite</span>{% endif %}</li>
+    <li>{% if item.url %}<a href="{{item.url}}" title="{{item.event}}">{% endif %} {{item.event}} {% if item.url %}</a>{% endif %} {% if item.favourite %}<i class="fa fa-heart" aria-hidden="true"></i><span class="fallback-text">favourite</span>{% endif %}</li>
     {% endfor %}
 </ul>
 {% endif %}

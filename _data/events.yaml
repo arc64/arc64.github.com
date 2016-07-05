@@ -113,6 +113,7 @@
   where: Juba, South Sudan
 
 - event: Monkigras
+  description: Homebrew&colon; Turning Side Projects into Communities, Products and Companies
   url: http://monkigras.com/
   month: 1
   month-name: January
@@ -373,7 +374,7 @@
   where: Black Forest, Germany
 
 - event: Scoopcamp
-  url:
+  url: http://scoopcamp.de/
   month: 9
   month-name: September
   year: 2014
@@ -430,6 +431,7 @@
   where: Baltimore, USA
 
 - event: Monkigras
+  description: Sharing Craft
   url: http://monkigras.com/
   month: 1
   month-name: January
@@ -623,7 +625,7 @@
   month: 6
   month-name: June
   year: 2012
-  role:
+  role: Hacker
   favourite: true
   where: Bletchley Park, United Kingdom
 
