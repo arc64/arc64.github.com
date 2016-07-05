@@ -346,6 +346,7 @@
   month-name: May
   year: 2014
   role: Mentor
+  favourite: True
   where: Miami, USA
 
 - event: GEN F.A.Z. Hackday
