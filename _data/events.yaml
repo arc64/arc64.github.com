@@ -12,6 +12,16 @@
 ## Lunch event at ODI London 2015
 ## Event with movie in potsdam
 
+
+- event: News Impact Summit
+  url: http://newsimpact.io/
+  month: 6
+  month-name: June
+  year: 2016
+  role:
+  favourite:
+  where: Berlin, Germany
+
 - event: Dataharvest &amp; Dataharvest Hackathon
   url: http://www.journalismfund.eu/eijc16
   month: 6
