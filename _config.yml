@@ -14,7 +14,7 @@ tagline: coder, coffee drinker
 
 author :
   name : Annabel Church
-  email : yeahapparentlyiblog@annabelchurch.com
+  email : yourstruly@annabelchurch.com
   github : arc64
   twitter : annabelchurch
   feedburner : feedname
@@ -67,6 +67,8 @@ JB :
   #   /assets
   #
   ASSET_PATH : false
+
+  THEME-NAME : intheopen
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
