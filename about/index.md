@@ -18,9 +18,9 @@ description:
 
     <p>Formerly a 2013 <a href="http://opennews.org/">OpenNews</a> fellow at <a href="http://zeit.de">ZeitOnline</a> and developer at <a href="http://guardian.co.uk">the Guardian</a>, and now freelance in Berlin.</p>
 
-    <p>I believe in the openness of things like data and code and <a href="http://blog.man7.org/" title="My brother Michaek Kerrisk">it runs in the family</a>. If you like Linux as much as I do get his book &mdash; <a href="http://man7.org/tlpi/">The Linux Programming Interface</a>.</p>
+    <p>I believe in the openness of things like data and code and <a href="http://blog.man7.org/" title="My brother Michael Kerrisk">it runs in the family</a>. If you like Linux as much as I do get his book &mdash; <a href="http://man7.org/tlpi/">The Linux Programming Interface</a>.</p>
 
-    <p>I drink <a href="http://en.wikipedia.org/wiki/Flat_white" title="Flat White">coffee</a> like an antipodean, listen to <a href="http://favcasts.com/">podcasts</a> obsessivly, bake a lot of cake, and pootle around the world.</p>
+    <p>I drink <a href="http://en.wikipedia.org/wiki/Flat_white" title="Flat White">coffee</a> like an antipodean, listen to <a href="http://favcasts.com/">podcasts</a> obsessively, bake a lot of cake, and pootle around the world.</p>
 
     <p>I live in Europe, but I come from Christchurch, New Zealand.</p>
 
