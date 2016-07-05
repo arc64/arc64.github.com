@@ -31,6 +31,15 @@
   favourite:
   where: Mechelen, Belgium
 
+- event: iAnnotate
+  url: http://iannotate.org
+  month: 5
+  month-name: May
+  year: 2016
+  role:
+  favourite:
+  where: Berlin, Germany
+
 - event: FoME Jour Fixe about Exile Media in Germany
   url: http://fome.info/allgemein/jour-fixe-2016-schedule
   month: 5
