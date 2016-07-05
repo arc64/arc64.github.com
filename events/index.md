@@ -27,7 +27,7 @@ description:
 
 [<i class="fa fa-child"></i>] Speaker / Hacker / Mentor / Hiker
 
-###My favourites
+<h3>My favourites</h3>
 
 {% assign events = site.data.events | group_by: "favourite" %}
 {% for group in events %}
