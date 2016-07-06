@@ -619,6 +619,8 @@
   where: Louisville, USA
 
 - event: Webstock 2013
+  description:
+  memorable:
   url: http://www.webstock.org.nz/
   month: 2
   month-name: February
@@ -632,28 +634,32 @@
   month: 11
   month-name: November
   year: 2012
-  role:
+  role: Fellow
   where: London, United Kingdom
 
 - event: Geek Lates
+  description: An evening of geeky entertainment and insight. There will be workshops, talks and other stands dotted around the place. We have sketch notes, short story writing, domestic science, arduino, physical prototyping, anatomical drawing and more.
+  memorable: Seeing Laurian Gridinoc draw the most amazing anatomy.
   url: http://lanyrd.com/2012/geek-lates/
   month: 11
   month-name: November
   year: 2012
-  role:
-  favourite:
+  role: Attendee
   where: London, United Kingdom
 
 - event: Ada Lovelace day
+  description: Ada Lovelace Day Live! teams up with the Women’s Engineering Society’s Karen Burt Award to bring you an evening of fun, inspiration and robots!
+  memorable: Seeing women engineers get awards.
   url: http://findingada.com/archives/events/ada-lovelace-day-live-2012/
   month: 10
   month-name: October
   year: 2012
-  role:
-  favourite:
+  role: Attendee
   where: London, United Kingdom
 
 - event: Over the Air 2012
+  description: Annual 2-day mobile developer Hack Day, with a mix off workshops to share new technologies with each other, and a hacking competition to celebrate programming & making as a creative discipline.
+  memorable: Lego robots can be an integral part of a hackathon.
   url: http://overtheair.org/
   month: 6
   month-name: June
@@ -663,8 +669,8 @@
   where: Bletchley Park, United Kingdom
 
 - event: FOSDEM &ndash; Free and Open Source developers
-  description: A free and open source software
-  memorable: You learned that Belgium beer is deadly
+  description: A free and open source software event, which is a free and non-commercial event organised by the community for the community
+  memorable: You learned that Belgium beer is deadly.
   url: https://archive.fosdem.org/2008/
   month: 3
   month-name: March
