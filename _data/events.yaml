@@ -19,6 +19,95 @@
 #http://euruko2011.org/
 # http://www.codemotionworld.com/ 2013 in Berlin?
 
+- event: Open Source Circular Economy Days Berlin
+  url: http://oscedaysberlin2018.opencircularity.info/
+  month: 6
+  month-name: June
+  year: 2018
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: re:publica
+  url: https://18.re-publica.com/en
+  month: 7
+  month-name: July
+  year: 2018
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: \#causeascene Conf
+  url: https://ti.to/kim.crayton.llc/causeascene-conference-berlin/en
+  month: 6
+  month-name: June
+  year: 2018
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: Making user research work better - What is ResearchOps?
+  url: https://www.eventbrite.com.au/e/making-user-research-work-better-what-is-researchops-tickets-46140901679#
+  month: 6
+  month-name: June
+  year: 2018
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: Ethics and Technology - Why is it important?
+  url: https://www.meetup.com/ThoughtWorks-Berlin/events/250210215/
+  month: 5
+  month-name: May
+  year: 2018
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: OMGDPR
+  url: https://medium.com/omgdpr/omgdpr-in-berlin-at-soundcloud-2cebf1b173d7
+  month: 4
+  month-name: April
+  year: 2018
+  role:
+  favourite:
+  where: Berlin, Germany
+
+- event: ada_CONF
+  url: https://adaconf.org/stockholm-2018/
+  month: 3
+  month-name: March
+  year: 2018
+  role: Speaker
+  favourite:
+  where: Stockholm, Sweden
+
+- event: OpenNews Unconference on Journalism Tech
+  url: https://opennews.org/what/conferences/mozfest/
+  month: 10
+  month-name: October
+  year: 2017
+  role:
+  favourite:
+  where: London, United Kingdom
+
+- event: Mozfest
+  url: https://mozillafestival.org/
+  month: 10
+  month-name: October
+  year: 2017
+  role:
+  favourite:
+  where: London, United Kingdom
+
+- event: Speaking With Purpose
+  url: http://www.speakingwithpurpose.nz/
+  month: 3
+  month-name: March
+  year: 2017
+  role:
+  favourite:
+  where: Wellington, New Zealand
 
 - event: News Impact Summit
   url: http://newsimpact.io/
