@@ -55,8 +55,7 @@
   description: |
     It turns out the Datawi.re didn't really live up to our expectations,
     and a model of consuming many data was too broad for the journalism use cases we wanted to solve.
-    So to break down the problem both <a href="http://www.twitter.com/pudo">@pudo</a>
-    and I ran data stringers workshops at Mozfest and Hacks/Hackers.
+    I ran data stringers workshops at Mozfest and Hacks/Hackers.
     One of the lovely outcomes of this was that
     <a href="https://twitter.com/basilesimon">Basile Simon</a> created a real live <a href="https://github.com/BBC-News-Labs/datastringer">Datastringer</a>.
   url: https://source.opennews.org/en-US/articles/bbc-news-labs-datastringer/
